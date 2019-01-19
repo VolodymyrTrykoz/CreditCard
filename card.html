@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section class="payment">
+  <form id="form" class="payment__form">
+    <div class="form-group">
+      <label for="cardNumber">Card Number</label>
+      <input type="text" class="payment__input" id="cardNumber" autocomplete="off">
+    </div>
+    <div class="form-group">
+      <label>Expiration Date</label>
+      <input type="text" class="payment__input" id="expDate" autocomplete="off">
+    </div>
+    <div class="form-group">
+      <label for="cvv">CVV Number</label>
+      <input type="password" class="payment__input" id="cvv">
+    </div>
+    <input type="checkbox" id="checkbox" class="checkbox"> Store the card
+    <div class="mail__box">
+      <label>Mail</label>
+      <input type="text" class="payment__input" id="mail">
+    </div>
+    <div class="form-group">
+      <button type="submit" class="btn">Submit</button>
+    </div>
+  </form>
+</section>
+
+<section class="loader">
+  <div class="loader__box">
+    <div class="circle"></div>
+    <div class="spinner"></div>
+  </div>
+</section>
+
+
+  <script src="js.js"></script>
+</body>
+</html>
